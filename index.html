@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>idr3 visualization</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <ul id="pager">
+    <li><a data-page="1" href="?page=1">1</a></li>
+    <li><a data-page="2" href="?page=2">2</a></li>
+    <li><a data-page="3" href="?page=3">3</a></li>
+    <li><a data-page="4" href="?page=4">4</a></li>
+    <li><a data-page="5" href="?page=5">5</a></li>
+    <li><a data-page="6" href="?page=6">6</a></li>
+    <li><a data-page="7" href="?page=7">7</a></li>
+    <li><a data-page="8" href="?page=8">8</a></li>
+    <li><a data-page="9" href="?page=9">9</a></li>
+    <li><a data-page="10" href="?page=10">10</a></li>
+    <li><a data-page="11" href="?page=11">11</a></li>
+    <li><a data-page="12" href="?page=12">12</a></li>
+    <li><a data-page="13" href="?page=13">13</a></li>
+    <li><a data-page="14" href="?page=14">14</a></li>
+    <li><a data-page="15" href="?page=15">15</a></li>
+    <li><a data-page="16" href="?page=16">16</a></li>
+    <li><a data-page="17" href="?page=17">17</a></li>
+    <li><a data-page="18" href="?page=18">18</a></li>
+  </ul>
+
+  <p>
+    Click on images to select and get object ID (<a href="?page=selected" id="selected-images-link">Selected Images</a>)
+  </p>
+
+  <p>
+    <em>The fields are in ascending order. Starting with field 01 on the first page, up to the last field on the last
+      page.</em>
+  </p>
+
+  <div id="grid"></div>
+  <img id="selected-image-preview" />
+  <div id="selected-images"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+#pager {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+}
+
+#pager li {
+  display: inline-block;
+  padding: 14px 5px;
+}
+
+#pager li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  background-color: #000;
+  font-weight: bold;
+}
+
+#pager li a:hover {
+  color: rgb(241, 82, 82);
+}
+
+#pager li a:active {
+  color: #fff;
+  background-color: rgb(241, 82, 82);
+}
+
+#pager li a.active {
+  color: #fff;
+  background-color: rgb(241, 82, 82);
+}
+
+#grid img {
+  cursor: pointer;
+  margin: 1px;
+  padding: 2px;
+}
+
+#grid img.active {
+  margin: 0;
+  padding: 0;
+  border: solid 3px red;
+}
